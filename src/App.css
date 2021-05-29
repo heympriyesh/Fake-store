@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+.colour{
+  background-color: #3c6e71;
+  /* height: 100vh; */
+}
+
+.context-stepper{
+  display: flex;
+  justify-content: center;
+}
+.App-header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: red;
+  background-color: white;
+}
+.nav-colour{
+ box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+.form-colour{
+   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: red;
+  background-color: beige;
+}
+.img{
+  height: 140px;
+  width: 350px;
+  margin: 0 auto;
+    align-items: center;
+    display: flex;
+    height: 300px;
+    background-size: contain!important;
+}
+.heih{
+  height: 100vh;
+}
+.show-img{
+  height: 100px;
+  width: 100px;
+}
